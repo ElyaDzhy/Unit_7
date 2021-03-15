@@ -1,32 +1,13 @@
-/*
-tagName 1
-.className 10
-#idValue 100
-*/
-    /*  
-    0123456789
-    0123456789abcdef 
-    */
-body{
-    /* background-color: black; */
+article{
+    font-size: 80;
+    border: 5px solid rgb(42, 65, 165);
+    color: #ff0000;
 }
-div{
-    /* color: rgba(255,255,255,0.7); */
-    /* color: #52104e; HEX */
-    color: black;
-    font-size: 20px;
-    text-align: justify;
-    direction: ltr;
-    text-decoration: underline;
-    /* direction: rtl; */
-    /* font-style: italic; */
+p{
+    border: inherit;
+    color: initial;
 }
-a{
-    color: inherit;
-    font-size: 40;
-    text-decoration: none;
+h2{
+    border: unset;
+    color: unset;
 }
-button{
-    text-transform: capitalize;
-} 
- 
