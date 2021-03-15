@@ -1,13 +1,32 @@
-article{
-    font-size: 80;
-    border: 5px solid rgb(42, 65, 165);
-    color: #ff0000;
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
-p{
-    border: inherit;
-    color: initial;
+header{
+    flex-basis: 120px;
+    background-color: orange;
 }
-h2{
-    border: unset;
-    color: unset;
+header > h1{
+    font-size: 50px;
+    text-orientation: sideways;
+}
+nav{
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+}
+nav > ul > li {
+    display: inline-block;
+}
+main{
+    max-width: 1200px;
+    align-self: center;
+    flex: 1;
+    background-color: thistle;
+}
+footer{
+    flex-basis: 200px;
+    background-color: darkolivegreen;
 }
